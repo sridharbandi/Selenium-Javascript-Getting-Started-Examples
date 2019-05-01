@@ -1,5 +1,5 @@
-import GoogleSearchPage from '../pageobjects/googlehomepage';
-import SearchResultsPage from '../pageobjects/searchresultspage';
+import GoogleSearchPage from '../pages/googlehomepage';
+import SearchResultsPage from '../pages/searchresultspage';
 import {assert} from 'chai';
 import {argv} from 'yargs';
 import getDriver from '../driverutil/driverutil';
