@@ -2,7 +2,7 @@ import {By, until} from "selenium-webdriver";
 
 export default function (driver) {
     const pageobjects = {
-        linkselenium: By.linkText('Selenium - Web Browser Automation')
+        linkselenium: By.partialLinkText('Selenium - Web Browser Automation')
     };
 
     return {

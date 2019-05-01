@@ -24,7 +24,7 @@ describe('Google Search', function () {
         await googlesearchpage.navigate();
         await googlesearchpage.searchfor('Selenium');
         await searchresultspage.waitUntilPageLoaded();
-        assert.isTrue(await searchresultspage.assertlinkpresent(), 'Selenium Link Present');
+        assert.isTrue(await searchresultspage.assertlinkpresent(), 'Selenium Link Not Present');
     });
 
     after(() => driver.quit());
