@@ -2,7 +2,7 @@ import {By, until, Key} from "selenium-webdriver";
 
 export default function (driver) {
     const pageobjects = {
-        searchbox: By.id('lst-ib')
+        searchbox: By.name('q')
     };
 
     return {
