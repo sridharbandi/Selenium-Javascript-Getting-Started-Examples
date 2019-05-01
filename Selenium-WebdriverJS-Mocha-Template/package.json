@@ -1,0 +1,17 @@
+{
+  "name": "selenium-webdriverjs-mocha-template",
+  "version": "1.0.0",
+  "description": "Selenium WebdriverJS Mocha Template to getting started with",
+  "main": "index.js",
+  "scripts": {
+    "test": "_mocha --require babel-core/register --require babel-polyfill tests"
+  },
+  "keywords": [
+    "Selenium",
+    "WebDriverJS",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT"
+}
