@@ -14,6 +14,11 @@
   ],
   "author": "Sridhar Bandi",
   "license": "MIT",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
