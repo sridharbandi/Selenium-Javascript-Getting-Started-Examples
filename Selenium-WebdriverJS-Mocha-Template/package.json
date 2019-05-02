@@ -30,6 +30,7 @@
     "iedriver": "^3.14.1",
     "mocha": "^6.1.4",
     "operadriver": "^1.0.0",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "yargs": "^13.2.2"
   }
 }
