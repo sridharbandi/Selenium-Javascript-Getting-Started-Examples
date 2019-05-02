@@ -5,7 +5,8 @@ import "edgedriver";
 import "operadriver";
 import { Builder } from "selenium-webdriver";
 
-export default function getDriver(browser) {
+export default function getDriver() {
+    var browser = process.env.BROWSER;
     var browsername = browser == undefined ? 'chrome' : browser;
     switch (browsername.toUpperCase()) {
         case 'FIREFOX':
@@ -13,9 +14,9 @@ export default function getDriver(browser) {
         case 'CHROME':
             return new Builder().forBrowser('chrome').build();
         case 'IE':
-            return new Builder().forBrowser('internet explorer').build();
+            return new Builder().forBrowser('ie').build();
         case 'EDGE':
-            return new Builder().forBrowser('MicrosoftEdge').build();
+            return new Builder().forBrowser('edge').build();
         case 'OPERA':
             return new Builder().forBrowser('opera').build();
         default:

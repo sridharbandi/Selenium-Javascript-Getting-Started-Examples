@@ -1,7 +1,6 @@
 import GoogleSearchPage from '../pages/googlehomepage';
 import SearchResultsPage from '../pages/searchresultspage';
 import {assert} from 'chai';
-import {argv} from 'yargs';
 import getDriver from '../driverutil/driverutil';
 {
     describe, before, after, it
@@ -15,7 +14,7 @@ describe('Google Search', function () {
     this.timeout(50000);
 
     before(async () => {
-        driver = await getDriver(argv.browser)
+        driver = await getDriver()
         googlesearchpage = new GoogleSearchPage(driver);
         searchresultspage = new SearchResultsPage(driver);
     });
