@@ -6,7 +6,7 @@ const edgedriver = require('edgedriver');
 
 module.exports = {
     src_folders: ["tests"],
-    page_objects_path: 'pageobjects',
+    page_objects_path: 'pages',
     output_folder: 'reports',
     custom_assertions_path: '',
     live_output: false,
