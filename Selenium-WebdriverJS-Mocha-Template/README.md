@@ -14,7 +14,7 @@ npm test
 ``` 
 By default it runs in Chrome browser, you can specify which browser to use as well
 ```javascript
-npm test -- --env firefox
+BROWSER=firefox npm test
 ```
 
 Browsers added in this template are 
