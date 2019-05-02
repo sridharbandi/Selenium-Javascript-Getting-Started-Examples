@@ -14,9 +14,9 @@ export default function getDriver() {
         case 'CHROME':
             return new Builder().forBrowser('chrome').build();
         case 'IE':
-            return new Builder().forBrowser('ie').build();
+            return new Builder().forBrowser('internet explorer').build();
         case 'EDGE':
-            return new Builder().forBrowser('edge').build();
+            return new Builder().forBrowser('MicrosoftEdge').build();
         case 'OPERA':
             return new Builder().forBrowser('opera').build();
         default:
