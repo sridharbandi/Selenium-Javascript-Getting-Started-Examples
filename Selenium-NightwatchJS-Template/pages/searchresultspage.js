@@ -1,7 +1,7 @@
 module.exports = {
     elements: {
         linkselenium: {
-            selector: '//a[text()="Selenium - Web Browser Automation"]',
+            selector: '//h3[text()="Selenium - Web Browser Automation"]',
             locateStrategy: 'xpath'
         }
     }
