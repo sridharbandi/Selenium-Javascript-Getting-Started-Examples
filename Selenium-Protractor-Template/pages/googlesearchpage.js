@@ -5,11 +5,11 @@ export default class GoogleSearchPage {
 
     async open() {
         await browser.get('http://www.google.com');
-    };
+    }
 
     async title() {
         return await browser.getTitle();
-    };
+    }
 
     async searchFor(searchterm) {
         await this.searchbox.sendKeys(searchterm, protractor.Key.RETURN);

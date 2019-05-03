@@ -4,5 +4,5 @@ export default class SearchResultsPage {
     }
     async isSeleniumPresent() {
         return await this.linkselenium.isDisplayed();
-    };
+    }
 }
