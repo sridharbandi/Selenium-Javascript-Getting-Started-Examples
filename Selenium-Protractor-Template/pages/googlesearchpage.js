@@ -1,6 +1,6 @@
-export default class GoogleSearchPage {
+class GoogleSearchPage {
     constructor() {
-        this.searchbox = element(by.name('q'))
+        this.searchbox = element(by.name('q'));
     }
 
     async open() {
@@ -15,3 +15,4 @@ export default class GoogleSearchPage {
         await this.searchbox.sendKeys(searchterm, protractor.Key.RETURN);
     }
 }
+export default new GoogleSearchPage();
