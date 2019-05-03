@@ -4,7 +4,7 @@
   "description": "Protractor Selenium Template with page object model",
   "main": "index.js",
   "scripts": {
-    "test": "protractor conf.js"
+    "test": "./node_modules/.bin/protractor conf.js"
   },
   "keywords": [
     "Seleniu",
@@ -13,17 +13,15 @@
   ],
   "author": "Sridhar Bandi",
   "license": "MIT",
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
   "dependencies": {
     "protractor": "^5.4.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.4"
   }
 }
