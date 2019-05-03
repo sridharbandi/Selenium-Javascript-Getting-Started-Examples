@@ -1,0 +1,29 @@
+{
+  "name": "selenium-protractor-template",
+  "version": "1.0.0",
+  "description": "Protractor Selenium Template with page object model",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "keywords": [
+    "Seleniu",
+    "Protractor",
+    "Page-Object-Model"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
