@@ -2,14 +2,14 @@
   "name": "selenium-protractor-template",
   "version": "1.0.0",
   "description": "Protractor Selenium Template with page object model",
-  "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/protractor conf.js"
   },
   "keywords": [
-    "Seleniu",
+    "Selenium",
     "Protractor",
-    "Page-Object-Model"
+    "Page-Object-Model",
+    "ES6"
   ],
   "author": "Sridhar Bandi",
   "license": "MIT",
