@@ -4,7 +4,7 @@
   "description": "Selenium WebdriverIO Template with Page Object Model",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "keywords": [
     "Selenium",
@@ -28,5 +28,17 @@
     "@wdio/mocha-framework": "^5.8.1",
     "@wdio/selenium-standalone-service": "^5.8.0",
     "@wdio/sync": "^5.8.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
   }
 }
