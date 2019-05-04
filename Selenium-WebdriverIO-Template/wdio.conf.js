@@ -8,7 +8,7 @@ exports.config = {
     maxInstances: 10,
     capabilities: [{
         maxInstances: 5,
-        browserName: 'chrome',
+        browserName: process.env.BROWSER||'chrome',
     }],
     logLevel: 'trace',
     bail: 0,
@@ -24,4 +24,7 @@ exports.config = {
         compilers: ['js:@babel/register'],
         timeout: 60000
     },
+    before: function (capabilities, specs) {
+        browser.setTimeout({ 'implicit': 60000 });
+    }
 }
