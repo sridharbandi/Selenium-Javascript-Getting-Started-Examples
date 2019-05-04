@@ -1,14 +1,14 @@
 exports.config = {
     runner: 'local',
     specs: [
-        './test/specs/**/*.js'
+        './tests/*.js'
     ],
     exclude: [
     ],
     maxInstances: 10,
     capabilities: [{
         maxInstances: 5,
-        browserName: 'firefox',
+        browserName: 'chrome',
     }],
     logLevel: 'trace',
     bail: 0,
