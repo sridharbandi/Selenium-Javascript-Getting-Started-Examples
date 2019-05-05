@@ -1,0 +1,28 @@
+{
+  "name": "protractor-cucumber-template",
+  "version": "1.0.0",
+  "description": "Protractor Cucumber Template to getting started with",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Protractor",
+    "Cucumber",
+    "Selenium"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "dependencies": {
+    "cucumber": "^5.1.0",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.4"
+  }
+}
