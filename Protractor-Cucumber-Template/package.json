@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Protractor Cucumber Template to getting started with",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/protractor conf.js"
   },
   "keywords": [
     "Protractor",
@@ -13,6 +13,7 @@
   "author": "Sridhar Bandi",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.2.0",
     "cucumber": "^5.1.0",
     "protractor": "^5.4.2",
     "protractor-cucumber-framework": "^6.1.1"
