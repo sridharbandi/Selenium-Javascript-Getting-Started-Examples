@@ -1,0 +1,29 @@
+{
+  "name": "nightwatchjs-cucumber-template",
+  "version": "1.0.0",
+  "description": "NightwatchJS Cucumber Getting Started Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Selenium",
+    "W3C-WebDriver",
+    "Cucumber",
+    "NightwatchJS"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "devDependencies": {
+    "cucumber": "^5.1.0",
+    "nightwatch": "^1.0.19",
+    "nightwatch-api": "^2.2.0",
+    "selenium-server": "^3.141.59",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.4"
+  }
+}
