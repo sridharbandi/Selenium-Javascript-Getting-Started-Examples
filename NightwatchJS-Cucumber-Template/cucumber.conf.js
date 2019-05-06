@@ -4,7 +4,7 @@ import { createSession, closeSession, startWebDriver, stopWebDriver } from 'nigh
 setDefaultTimeout(60000);
 
 BeforeAll(async () => {
-    await startWebDriver();
+    await startWebDriver({ env: process.env.BROWSER || 'chrome' });
     await createSession();
 });
 
