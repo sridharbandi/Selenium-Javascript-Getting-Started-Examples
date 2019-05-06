@@ -5,7 +5,6 @@ const iedriver = require('iedriver');
 const edgedriver = require('edgedriver');
 
 module.exports = {
-    src_folders: ["steps"],
     page_objects_path: 'pages',
     output_folder: 'reports',
     custom_assertions_path: '',
