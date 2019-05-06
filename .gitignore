@@ -14,3 +14,4 @@ Protractor-Cucumber-Template/results.json
 .vscode
 NightwatchJS-Cucumber-Template/node_modules
 NightwatchJS-Cucumber-Template/package-lock.json
+NightwatchJS-Cucumber-Template/selenium-server.log
