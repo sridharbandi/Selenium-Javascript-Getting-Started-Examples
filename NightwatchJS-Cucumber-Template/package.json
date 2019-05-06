@@ -4,7 +4,7 @@
   "description": "NightwatchJS Cucumber Getting Started Example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js --require-module @babel/register --require cucumber.conf.js --require steps"
   },
   "keywords": [
     "Selenium",
@@ -15,15 +15,19 @@
   "author": "Sridhar Bandi",
   "license": "MIT",
   "devDependencies": {
-    "cucumber": "^5.1.0",
-    "nightwatch": "^1.0.19",
-    "nightwatch-api": "^2.2.0",
-    "selenium-server": "^3.141.59",
     "@babel/core": "^7.4.4",
     "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/register": "^7.4.4",
-    "@babel/runtime": "^7.4.4"
+    "@babel/runtime": "^7.4.4",
+    "chromedriver": "^74.0.0",
+    "cucumber": "^5.1.0",
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^1.16.2",
+    "iedriver": "^3.14.1",
+    "nightwatch": "^1.0.19",
+    "nightwatch-api": "^2.2.0",
+    "selenium-server": "^3.141.59"
   }
 }
