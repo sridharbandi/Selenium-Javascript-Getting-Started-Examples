@@ -1,10 +1,10 @@
 import { Given, When, Then } from 'cucumber';
-import GoogleSearchPage from '../pages/googlesearchpage';
-import SearchResultsPage from '../pages/searchresultspage';
-import {assert} from 'chai';
+import { client } from 'nightwatch-api';
+var GoogleSearchPage = client.page.googlesearchpage();
+var SearchResultsPage = client.page.searchresultspage();
 
 Given(/^User is on Google search page$/, async function () {
-    await GoogleSearchPage.open();
+    await GoogleSearchPage.navigate();
 });
 
 When(/^User searches for Selenium$/, async function () {
@@ -12,6 +12,6 @@ When(/^User searches for Selenium$/, async function () {
 });
 
 Then(/^User can see Selenium results$/, async function () {
-    assert.isTrue(await SearchResultsPage.isSeleniumPresent(), 'Selenium Link Not Present');
+    SearchResultsPage.expect.element('@linkselenium').to.be.visible;
 });
 
