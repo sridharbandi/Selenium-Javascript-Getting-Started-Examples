@@ -2,7 +2,6 @@
   "name": "nightwatchjs-cucumber-template",
   "version": "1.0.0",
   "description": "NightwatchJS Cucumber Getting Started Example",
-  "main": "index.js",
   "scripts": {
     "test": "cucumber-js --require-module @babel/register --require cucumber.conf.js --require steps"
   },
