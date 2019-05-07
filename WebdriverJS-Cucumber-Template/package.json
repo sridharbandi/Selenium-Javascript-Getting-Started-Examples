@@ -1,0 +1,33 @@
+{
+  "name": "webdriverjs-cucumber-template",
+  "version": "1.0.0",
+  "description": "Selenium WebdriverJS Cucumber Getting Started Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --require-module @babel/register --require steps"
+  },
+  "keywords": [
+    "Selenium",
+    "WebdriverJS",
+    "Cucumber",
+    "Page-Object-Model"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "chai": "^4.2.0",
+    "chromedriver": "^74.0.0",
+    "cucumber": "^5.1.0",
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^1.16.2",
+    "iedriver": "^3.14.1",
+    "operadriver": "^1.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
