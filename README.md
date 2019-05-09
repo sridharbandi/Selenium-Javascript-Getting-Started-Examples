@@ -1,1 +1,1 @@
-## Mostly used Javascript Webdriver framework templates to getting started with
+## Mostly used Javascript Webdriver framework templates to getting started
