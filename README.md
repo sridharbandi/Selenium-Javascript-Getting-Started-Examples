@@ -10,4 +10,4 @@ Below is the list
 6. [NightwatchJS Template](https://github.com/sridharbandi/Selenium-Javascript-Getting-Started-Examples/tree/master/NightwatchJS-Template)
 7. [NightwatchJS Cucumber Template](https://github.com/sridharbandi/Selenium-Javascript-Getting-Started-Examples/tree/master/NightwatchJS-Cucumber-Template)
 
-If you looking for template which is not in above list, drop me [mail](mailto:sridhar.bandi.ece@gmail.com) I can write it for you.
+If you looking for template which is not in above list, drop me [mail](mailto:sridhar.bandi.ece@gmail.com) I can create it for you.
