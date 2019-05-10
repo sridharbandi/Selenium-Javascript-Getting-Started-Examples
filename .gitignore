@@ -4,8 +4,6 @@ NightwatchJS-Template/package-lock.json
 NightwatchJS-Template/node_modules
 NightwatchJS-Template/selenium-server.log
 NightwatchJS-Template/reports
-Selenium-Protractor-Template/node_modules
-Selenium-Protractor-Template/package-lock.json
 Selenium-WebdriverIO-Template/node_modules
 Selenium-WebdriverIO-Template/package-lock.json
 Protractor-Cucumber-Template/node_modules
@@ -17,3 +15,7 @@ NightwatchJS-Cucumber-Template/package-lock.json
 NightwatchJS-Cucumber-Template/selenium-server.log
 WebdriverJS-Cucumber-Template/package-lock.json
 WebdriverJS-Cucumber-Template/node_modules
+WebdriverIO-Mocha-Template/node_modules
+WebdriverIO-Mocha-Template/package-lock.json
+Protractor-Jasmine-Template/node_modules
+Protractor-Jasmine-Template/package-lock.json
