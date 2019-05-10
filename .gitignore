@@ -1,9 +1,9 @@
 Selenium-WebdriverJS-Mocha-Template/package-lock.json
 Selenium-WebdriverJS-Mocha-Template/node_modules
-Selenium-NightwatchJS-Template/package-lock.json
-Selenium-NightwatchJS-Template/node_modules
-Selenium-NightwatchJS-Template/selenium-server.log
-Selenium-NightwatchJS-Template/reports
+NightwatchJS-Template/package-lock.json
+NightwatchJS-Template/node_modules
+NightwatchJS-Template/selenium-server.log
+NightwatchJS-Template/reports
 Selenium-Protractor-Template/node_modules
 Selenium-Protractor-Template/package-lock.json
 Selenium-WebdriverIO-Template/node_modules
