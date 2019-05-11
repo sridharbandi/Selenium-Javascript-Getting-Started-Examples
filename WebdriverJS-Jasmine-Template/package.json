@@ -1,0 +1,33 @@
+{
+  "name": "webdriverjs-jasmine-template",
+  "version": "1.0.0",
+  "description": "WebdriverJS Jasmine Example for getting started",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node tests"
+  },
+  "keywords": [
+    "WebdriverJS",
+    "Jasmine",
+    "Page-Object-Model"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^74.0.0",
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^1.16.2",
+    "iedriver": "^3.14.1",
+    "operadriver": "^1.0.0",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jasmine-node": "^1.16.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
