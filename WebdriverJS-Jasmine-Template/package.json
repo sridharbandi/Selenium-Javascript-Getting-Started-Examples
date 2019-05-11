@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "WebdriverJS Jasmine Example for getting started",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node tests"
+    "test": "./node_modules/.bin/jasmine-node ."
   },
   "keywords": [
     "WebdriverJS",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "jasmine-node": "^1.16.2",
+    "jasmine": "^3.4.0",
     "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
