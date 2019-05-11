@@ -2,18 +2,13 @@ import GoogleSearchPage from '../pages/googlehomepage';
 import SearchResultsPage from '../pages/searchresultspage';
 import {assert} from 'chai';
 import getDriver from '../driverutil/driverutil';
-{
-    describe, before, after, it
-}
-import "selenium-webdriver/testing";
 
 describe('Google Search', function () {
     let driver;
     let googlesearchpage;
     let searchresultspage;
-    this.timeout(50000);
 
-    before(async () => {
+    beforeEach(async () => {
         driver = await getDriver()
         googlesearchpage = new GoogleSearchPage(driver);
         searchresultspage = new SearchResultsPage(driver);
@@ -26,5 +21,5 @@ describe('Google Search', function () {
         assert.isTrue(await searchresultspage.assertlinkpresent(), 'Selenium Link Not Present');
     });
 
-    after(() => driver.quit());
+    afterEach(() => driver.quit());
 });
