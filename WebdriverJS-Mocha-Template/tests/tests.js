@@ -5,7 +5,6 @@ import getDriver from '../driverutil/driverutil';
 {
     describe, before, after, it
 }
-import "selenium-webdriver/testing";
 
 describe('Google Search', function () {
     let driver;
