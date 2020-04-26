@@ -4,7 +4,7 @@
   "description": "Selenium WebdriverJS Mocha Template to getting started with",
   "main": "index.js",
   "scripts": {
-    "test": "_mocha --require babel-core/register --require babel-polyfill tests"
+    "test": "./node_modules/.bin/_mocha --require @babel/register --timeout 60000 tests"
   },
   "keywords": [
     "Selenium",
@@ -14,22 +14,22 @@
   ],
   "author": "Sridhar Bandi",
   "license": "MIT",
-  "babel": {
-    "presets": [
-      "env"
-    ]
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^81.0.0",
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^1.19.1",
+    "iedriver": "^3.14.2",
+    "mocha": "^7.1.2",
+    "operadriver": "^1.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
   },
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "chai": "^4.2.0",
-    "chromedriver": "^74.0.0",
-    "edgedriver": "^4.17134.1",
-    "geckodriver": "^1.16.2",
-    "iedriver": "^3.14.1",
-    "mocha": "^6.1.4",
-    "operadriver": "^1.0.0",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2"
   }
 }
