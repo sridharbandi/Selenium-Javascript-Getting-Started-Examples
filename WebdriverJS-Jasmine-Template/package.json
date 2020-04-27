@@ -18,8 +18,8 @@
     "edgedriver": "^4.17134.1",
     "geckodriver": "^1.19.1",
     "iedriver": "^3.14.2",
-    "jasmine": "^3.5.0",
     "operadriver": "^1.0.0",
+    "jasmine": "^3.5.0",
     "selenium-webdriver": "^4.0.0-alpha.7"
   },
   "dependencies": {
