@@ -15,19 +15,21 @@
   "author": "Sridhar Bandi",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/plugin-transform-runtime": "^7.4.4",
-    "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/register": "^7.4.4",
-    "@babel/runtime": "^7.4.4",
     "chai": "^4.2.0",
-    "chromedriver": "^74.0.0",
-    "cucumber": "^5.1.0",
+    "chromedriver": "^81.0.0",
     "edgedriver": "^4.17134.1",
-    "geckodriver": "^1.16.2",
-    "iedriver": "^3.14.1",
+    "geckodriver": "^1.19.1",
+    "iedriver": "^3.14.2",
     "operadriver": "^1.0.0",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "cucumber": "^6.0.5",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2"
   }
 }
