@@ -1,4 +1,4 @@
 class SearchResultsPage {
-    get linkselenium() { return $('*=Selenium - Web Browser Automation'); }
+    get linkselenium() { return $('*=Selenium'); }
 }
 export default new SearchResultsPage();
