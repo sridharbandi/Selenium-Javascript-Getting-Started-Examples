@@ -13,32 +13,22 @@
   ],
   "author": "Sridhar Bandi",
   "license": "MIT",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "webdriverio": "^5.8.1"
-  },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/register": "^7.4.4",
-    "@wdio/cli": "^5.8.1",
-    "@wdio/dot-reporter": "^5.7.8",
-    "@wdio/local-runner": "^5.8.1",
-    "@wdio/mocha-framework": "^5.8.1",
-    "@wdio/selenium-standalone-service": "^5.8.0",
-    "@wdio/sync": "^5.8.1"
+    "chai": "^4.2.0",
+    "webdriverio": "^6.1.5"
   },
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
-    ]
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@wdio/cli": "^6.1.5",
+    "@wdio/dot-reporter": "^6.1.5",
+    "@wdio/local-runner": "^6.1.5",
+    "@wdio/mocha-framework": "^6.1.5",
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "@wdio/sync": "^6.1.5"
   }
 }
