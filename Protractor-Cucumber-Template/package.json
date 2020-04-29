@@ -12,18 +12,18 @@
   ],
   "author": "Sridhar Bandi",
   "license": "MIT",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "cucumber": "^5.1.0",
-    "protractor": "^5.4.2",
-    "protractor-cucumber-framework": "^6.1.1"
-  },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/plugin-transform-runtime": "^7.4.4",
-    "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/register": "^7.4.4",
-    "@babel/runtime": "^7.4.4"
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "protractor": "^5.4.4",
+    "protractor-cucumber-framework": "^6.2.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2"
   }
 }
