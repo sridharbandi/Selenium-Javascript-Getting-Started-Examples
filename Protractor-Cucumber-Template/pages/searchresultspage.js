@@ -1,6 +1,6 @@
 class SearchResultsPage {
     constructor() {
-        this.linkselenium = element(by.partialLinkText('Selenium - Web Browser Automation'));
+        this.linkselenium = element(by.partialLinkText('Selenium'));
     }
 
     async isSeleniumPresent() {
