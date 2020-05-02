@@ -10,7 +10,7 @@ module.exports = {
     commands: [googleCommands],
     elements: {
         searchbox: {
-            selector: 'input[type=text]'
+            selector: 'input[name=q]'
         }
     }
 };
