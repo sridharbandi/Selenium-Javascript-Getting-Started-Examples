@@ -26,7 +26,11 @@ module.exports = {
             desiredCapabilities: {
                 browserName: 'chrome',
                 javascriptEnabled: true,
-                acceptSslCerts: true
+                acceptSslCerts: true,
+                "chromeOptions": {
+                    "args" : ["--no-sandbox"],
+                    "w3c": false
+                  },
             }, selenium: {
                 cli_args: {
                     'webdriver.chrome.driver': chromedriver.path
