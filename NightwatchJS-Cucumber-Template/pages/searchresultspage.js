@@ -1,6 +1,6 @@
 export const elements = {
     linkselenium: {
-        selector: '//h3[text()="Selenium - Web Browser Automation"]',
+        selector: '//h3[text()="Selenium"]',
         locateStrategy: 'xpath'
     }
 };
