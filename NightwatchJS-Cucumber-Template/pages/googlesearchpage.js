@@ -9,6 +9,6 @@ export const url = 'http://google.com';
 export const commands = [googleCommands];
 export const elements = {
     searchbox: {
-        selector: 'input[type=text]'
+        selector: 'input[name=q]'
     }
 };
